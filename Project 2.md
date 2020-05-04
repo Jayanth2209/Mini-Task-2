@@ -6,7 +6,7 @@ In the actual project, a Raspberry Pi is used to collect information from the We
 ###### An alternative approach: 
 We can use a low-cost, open source IoT module like NodeMCU to collect data from the Web and uploading it to an open, online IoT platform. In addition, we can also connect sensors to detect Temperature,Humidity (DHT11) and Pressure (BM180) to the NodeMCU to monitor local data and it can be uploaded to the online IoT platform as well.      
 We can use a Bolt IoT module which can gather this data from the online platform to it's cloud and process it to display the weather information that has been gathered locally through sensors and through the Web and the user can access it from anywhere.    
-We can also serially add a microcontroller to the Bolt Iot module to drive a display locally displaying the weather information.    
+We can also serially add a microcontroller to the Bolt IoT module to drive a display locally, displaying the weather information.    
 
 The Bolt IoT module and NodeMCU together cost less than Raspeberry Pi and hence can be considered as a cost-effective alternative.   
 Note : The Bolt IoT module has it's own cloud platform for data usage and storage while Raspberry Pi depends on a third-party IoT platform.
