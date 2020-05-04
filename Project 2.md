@@ -10,7 +10,9 @@ We can also serially add a microcontroller to the Bolt Iot module to drive a dis
 
 The Bolt IoT module and NodeMCU together cost less than Raspeberry Pi and hence can be considered as a cost-effective alternative.   
 Note : The Bolt IoT module has it's own cloud platform for data usage and storage while Raspberry Pi depends on a third-party IoT platform.
-These modules are also smaller in size compared to Raspberry Pi. Power comsumption is also reduced by using NodeMCU and it allows high speed interfacing of sensors too. 
+These modules are also smaller in size compared to Raspberry Pi. Power comsumption is also reduced by using NodeMCU and it allows high speed interfacing of sensors too.   
+##### Personal Notes:
+Since this project doesn't involve any heavy processing of data, using NodeMCU instead of Raspberry Pi reduces the cost significantly. So, NodeMCU can be extensively used for this project instead of Raspberry Pi.  
 
 
 
