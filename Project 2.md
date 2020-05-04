@@ -7,8 +7,8 @@ This problem can be solved in the following ways:
 2) Fetching the data from the internet and displaying it 
 3) An elaborate way - An IoT based solution to monitor data from the sensors as well as predicted weather forecasts. 
 ##### Pipeline: 
-Data Acquisition (from sensors) --> Microcontroller (Receiver end - to periodically read the data) 
-                                --> Transmitting IoT Module <-- Data Acquisition (from the Web)
+Data Acquisition (from sensors) --> Microcontroller (Receiver end - to periodically read the data)       
+                                --> Transmitting IoT Module <-- Data Acquisition (from the Web)      
                                 --> Microcontroller (To gather information and drive the display) --> Display (User Interface)
                                 
                               
