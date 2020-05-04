@@ -12,5 +12,5 @@ Hand Movement/Gesture detection --> Microcontroller (Transmitting End-Hand modul
   
   The project solution is fairly good to implement. An Arduino Nano is used in the Hand module along with a MPU6050 Accelerometer+Gyroscope. An Arduino Uno at the receiving end is used to send the instructions to the motor drivers. The communication between the Nano and Uno could be set up in two ways:
   1) Using an RF Module : These modules are relatively cheap and work well over a short range of distance. Since we'll be operating over a short range, this is not a problem. The transmitter and receiver have tobe aligned for data transfer. The construction has to be done in such a way that the modules are duly interfaced. They also consume low power as they only function during the data transfer.
-  2) Via Bluetooth : This doesn't involve any construction constraints and also doesn't consume much power. But it involves security issues as anyone can connect to the module.
-  So, I would choose RF Communication since distance is not much of an issue here. Also, simple arrangements in construction can be done to avoid environmental interferences with the data transfer. 
+  2) Via Bluetooth : This doesn't involve any construction constraints and also doesn't consume much power. But it involves security issues as anyone can connect to the module.    
+So, I would choose RF Communication since distance is not much of an issue here. Also, simple arrangements in construction can be done to avoid environmental interferences with the data transfer. 
