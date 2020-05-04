@@ -1,2 +1,2 @@
 # Mini-Task-2
-[Project 1.md]()
+[Mini-Task-2/Project 1.md]()
